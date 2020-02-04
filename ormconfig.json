@@ -1,0 +1,9 @@
+{
+    "type": "oracle",
+    "username": "CAJA_TMP",
+    "password": "CAJA_TMP",
+    "connectString": "(DESCRIPTION= (ADDRESS= (PROTOCOL=TCP) (HOST=d250aixde06) (PORT=1521) ) (CONNECT_DATA=(SERVICE_NAME=CAJAD) ))",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": false,
+    "logging": "all"
+}
